@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: candle-aggregation-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    root: INFO
+    com.example.candles: INFO
+
+market:
+  simulator:
+    enabled: true
+    delay-ms: 1000
+
+server:
+  port: 8080
