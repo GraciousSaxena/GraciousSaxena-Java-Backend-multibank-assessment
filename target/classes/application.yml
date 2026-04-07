@@ -19,7 +19,7 @@ logging:
 market:
   simulator:
     enabled: true
-    delay-ms: 1000
+    delay-ms: 100
 
 server:
   port: 8080
