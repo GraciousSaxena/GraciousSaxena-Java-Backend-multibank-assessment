@@ -131,7 +131,7 @@ mvn test
 
 ## Notes on bonus-friendly extensibility
 
-The project is structured so you can later add:
+The project is structured so we can later add:
 
 - Kafka or WebSocket ingestion adapters
 - PostgreSQL / TimescaleDB persistence
